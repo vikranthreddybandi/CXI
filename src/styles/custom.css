@@ -139,43 +139,43 @@
   
   
 
-    /****** Style Star Rating Widget *****/
 
-.rating { 
-  border: none;
-  float: left;
-}
 
-.rating > input { display: none; } 
-.rating > label:before { 
-  margin-right: 10px;
-  font-size: 2.3em;
-  font-family: FontAwesome;
+.star-rating {
+  direction: rtl;
   display: inline-block;
-  content: "\f005";
 }
 
-.rating > .half:before { 
-  content: "\f089";
-  position: absolute;
+.star-rating input[type=radio] {
+  display: none
 }
 
-.rating > label { 
-  color: #ddd; 
- float: right; 
+.star-rating label {
+  color: #bbb;
+  font-size: 35px;
+  padding: 12px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out
 }
 
-/***** CSS Magic to Highlight Stars on Hover *****/
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input[type=radio]:checked ~ label {
+  color: #f2b600
+}
 
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+@media(min-width: 320px){
+  .star-rating label {
+    font-size: 30px;
+    padding: 8px;
+  }
+}
 
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
 /* star rating ends */
+
+
 
 
 
