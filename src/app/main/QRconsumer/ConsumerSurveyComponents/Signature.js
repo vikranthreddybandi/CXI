@@ -35,7 +35,7 @@ class Signature extends React.Component {
 
           {/* signature question */}
               <div className="">
-                <Typography className="text-18 text-grey-darkest pb-20 ">12. Sign Using your Touch Pad or Mouse</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20 ">11. Sign Using your Touch Pad or Mouse</Typography>
                   <div className="mb-24 bg-grey-light w-full min-h-128 rounded ">
                     <SignaturePad />                  
                   </div>

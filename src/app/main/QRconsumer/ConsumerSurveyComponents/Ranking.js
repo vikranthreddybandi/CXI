@@ -46,7 +46,7 @@ class Ranking extends React.Component {
 
           {/* star rating question */}
               <div className="">
-                <Typography className="text-18 text-grey-darkest pb-20">8. Rank the following establishments based on coffee taste</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20">7. Rank the following establishments based on coffee taste</Typography>
                   <div className="pb-16">
                       <Grid container className="flex items-center">
                           <Grid item xs={1}>

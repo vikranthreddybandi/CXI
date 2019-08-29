@@ -26,7 +26,7 @@ class FullName extends React.Component {
 
         {/* FullNAme question */}
             <div className="">
-              <Typography className="text-18 text-grey-darkest pb-20">10. Enter your FullName</Typography>
+              <Typography className="text-18 text-grey-darkest pb-20">9. Enter your FullName</Typography>
                 <div className="">
                 <TextField
                     id="outlined-name"
