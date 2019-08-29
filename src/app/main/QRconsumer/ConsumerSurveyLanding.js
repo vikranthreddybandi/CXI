@@ -146,10 +146,7 @@ class ConsumerSurveyLanding extends Component {
                                     <ImageType />
                                 </Grid>
                                 {/* imagetype ends */}
-
-
-                            
-
+                                
 
                                 {/* star rating */}
                                 <Grid item xs={12} className="pb-72">
