@@ -1,3 +1,4 @@
+
 /* Login container */
 .welcome_container {
     display: flex;
@@ -6,17 +7,7 @@
   
   /* Login container end */
   
-  
-  /* Food Card */
-    /* .food_description{
-      text-overflow: ellipsis;
-      overflow: visible; 
-      width: 160px; 
-      white-space: nowrap;
-    } */
-  /* Food Card end */
-  
-  
+
   .MuiOutlinedInput-root-193 .MuiOutlinedInput-notchedOutline-200 {
     border-color: #484D5C !important;
   }
@@ -115,7 +106,7 @@
 
 
   .withRouter-Connect-FuseLayout---root-1{
-    background-color: #ffffff !important;
+    background-color: #fafafa !important;
   }
 
     /* Search Container */

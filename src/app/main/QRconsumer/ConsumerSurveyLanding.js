@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {withStyles} from '@material-ui/core/styles';
-import {FusePageSimple, DemoContent} from '@fuse';
 import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import {Typography, Button, Divider, Icon} from '@material-ui/core';
@@ -69,7 +67,6 @@ class ConsumerSurveyLanding extends Component {
 
     render()
     {
-        const {classes} = this.props;  
         const { Cakes, Ambience, Free, Popular } = this.state;
         const error = [Cakes, Ambience, Free, Popular].filter(v => v).length !== 3;
         
@@ -103,10 +100,10 @@ class ConsumerSurveyLanding extends Component {
 
                      {/* survey questions */}
                      
+
                      <div className="px-28 py-20">
 
                         <Grid container spacing={12}>                               
-
 
                                 {/* radiobuttn question*/}
                                 <Grid item xs={12} className="pb-72">
@@ -226,8 +223,6 @@ class ConsumerSurveyLanding extends Component {
     }
 }
 
-ConsumerSurveyLanding.propTypes = {
-    classes: PropTypes.object.isRequired,
-  };
 
-export default withStyles(styles, {withTheme: true})(ConsumerSurveyLanding);
+
+export default ConsumerSurveyLanding;

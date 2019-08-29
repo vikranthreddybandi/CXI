@@ -30,7 +30,8 @@ const styles = theme => ({
             '& .container' : {
                 maxWidth: 500,
                 width   : '100%',
-                margin  : '0 auto'
+                margin  : '0 auto',
+                background : '#fff'
             },
             '& .navigation': {}
         }
