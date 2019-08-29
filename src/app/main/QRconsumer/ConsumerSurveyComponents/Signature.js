@@ -17,7 +17,7 @@ const styles = {
   },
 };
 
-class StarRating extends React.Component {
+class Signature extends React.Component {
   
   render() {
     const { classes } = this.props;
@@ -33,7 +33,7 @@ class StarRating extends React.Component {
     return (
       <div className="">
 
-          {/* star rating question */}
+          {/* signature question */}
               <div className="">
                 <Typography className="text-18 text-grey-darkest pb-20 ">12. Sign Using your Touch Pad or Mouse</Typography>
                   <div className="mb-24 bg-grey-light w-full min-h-128 rounded ">
@@ -41,15 +41,15 @@ class StarRating extends React.Component {
                   </div>
             </div>
 
-          {/* star rating question ends*/}
+          {/* signature question ends*/}
 
       </div>
     );
   }
 }
 
-StarRating.propTypes = {
+Signature.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(StarRating);
+export default withStyles(styles)(Signature);

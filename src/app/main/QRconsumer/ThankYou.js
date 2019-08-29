@@ -5,8 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import {FuseAnimate} from '@fuse';
 import {Typography, Button,TextField} from '@material-ui/core';
-import classNames from 'classnames';
-import Box from '@material-ui/core/Box';
 
 const styles = theme => ({
     layoutRoot: {},
@@ -36,7 +34,7 @@ class ThankYou extends Component {
                                     
                 //                     <Typography className="text-grey-darkest text-center text-18 leading-normal mx-auto pb-8">Your response has been submitted</Typography>
                                    
-                //                     <Typography className="text-grey-darkest text-center text-20 leading-normal mx-auto font-bold">Would you like to <span className="text-green-darkest font-bold cursor-pointer">Sign up ?</span></Typography>
+                //                     {/* <Typography className="text-grey-darkest text-center text-20 leading-normal mx-auto font-bold">Would you like to <span className="text-green-darkest font-bold cursor-pointer">Sign up ?</span></Typography> */}
                                    
                 //                     <div className="flex items-center pt-256 pb-24 sm:pt-128">
                 //                         <Typography className="text-grey-darkest text-16 text-center leading-normal ml-auto ">Powerd by </Typography>
@@ -49,21 +47,22 @@ class ThankYou extends Component {
                 //     </div>
                 //     </div>  
 
-                <div className="container border-b-8 border-green-darkest ">
+                <div className="container border-1 border-grey">
+                    <div className=" border-b-8 border-green-darkest">
                     <div className="h-screen grid items-center ">                        
 
-                         <div class="items-center">
+                         <div className="items-center">
                             <img src={('../assets/images/logos/happiness.svg')} className="mx-auto block rounded-full max-w-160 mb-48" /> 
                             <FuseAnimate animation="transition.slideUpIn" delay={300}>
-                                <Typography className="text-24 text-green-darkest uppercase w-full font-bold leading-tight text-center mx-auto pb-8">
+                                <Typography className="text-24 text-green-darkest uppercase w-full gs-b leading-tight text-center mx-auto pb-8">
                                     Thank you!
                                 </Typography>
                             </FuseAnimate>                             
                             <Typography className="text-grey-darkest text-center text-18 leading-normal mx-auto pb-8">Your response has been submitted</Typography>                            
-                            <Typography className="text-grey-darkest text-center text-20 leading-normal mx-auto font-bold">Would you like to <span className="text-green-darkest font-bold cursor-pointer">Sign up ?</span></Typography>
+                           
                          </div>
 
-                         <div class=" items-end">
+                         <div className=" items-end">
                              <div className="flex items-center">
                                 <Typography className="text-grey-darkest text-16 text-center leading-normal ml-auto ">Powerd by </Typography>
                                 <img src={('../assets/images/logos/cxi_solutions.png')} className="block mr-auto" />
@@ -71,9 +70,9 @@ class ThankYou extends Component {
                          </div>
                     </div>
                 </div>
-            
+                </div>
         )
-    }
+    }   
 }
 
 ThankYou.propTypes = {
