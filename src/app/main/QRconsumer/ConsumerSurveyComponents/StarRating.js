@@ -1,7 +1,7 @@
-import 'date-fns';
+
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+// import { withStyles } from '@material-ui/core/styles';
 import {Typography} from '@material-ui/core';
 
 
@@ -23,8 +23,6 @@ class StarRating extends React.Component {
 
   
   render() {
-    const { classes } = this.props;
-
       
     
     
@@ -59,8 +57,5 @@ class StarRating extends React.Component {
   }
 }
 
-StarRating.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
-export default withStyles(styles)(StarRating);
+export default (StarRating);
