@@ -52,11 +52,11 @@ class RadioButton extends Component {
         
      
         return (
-                <div className="container ">   
+                <div className="">   
 
                         {/* checkbox question */}
                         <div className="">
-                            <Typography className="text-18 text-grey-darkest pb-24">2. What do you like about Starbucks?</Typography>
+                            <Typography className="text-18 text-grey-darkest pb-20">2. What do you like about Starbucks?</Typography>
                             <div className="">
                             <FormGroup>
                                 <FormControlLabel

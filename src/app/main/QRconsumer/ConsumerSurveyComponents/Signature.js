@@ -31,11 +31,11 @@ class Signature extends React.Component {
       // this.signaturePad.penColor = 'rgb(66, 133, 244)';
 
     return (
-      <div className="container">
+      <div className="">
 
           {/* signature question */}
               <div className="">
-                <Typography className="text-18 text-grey-darkest pb-24 ">12. Sign Using your Touch Pad or Mouse</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20 ">12. Sign Using your Touch Pad or Mouse</Typography>
                   <div className="mb-24 bg-grey-light w-full min-h-128 rounded ">
                     <SignaturePad />                  
                   </div>

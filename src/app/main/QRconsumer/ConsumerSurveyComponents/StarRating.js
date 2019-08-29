@@ -27,7 +27,7 @@ class StarRating extends React.Component {
     
     
     return (
-      <div className="container">
+      <div className="">
 
           {/* star rating question */}
               <div className="">

@@ -31,7 +31,12 @@ const styles = theme => ({
                 maxWidth: 500,
                 width   : '100%',
                 margin  : '0 auto',
-                background : '#fff'
+                background: '#ffffff',
+                border: '1px solid #efefef',
+                'box-sizing': 'border-box',
+                '-moz-box-sizing': 'border-box',
+                '-webkit-box-sizing': 'border-box'
+                
             },
             '& .navigation': {}
         }

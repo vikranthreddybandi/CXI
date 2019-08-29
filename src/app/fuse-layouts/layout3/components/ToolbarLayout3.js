@@ -8,8 +8,6 @@ import Button from '@material-ui/core/Button';
 import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarMobileToggleButton';
 // import QuickPanelToggleButton from 'app/fuse-layouts/shared-components/quickPanel/QuickPanelToggleButton';
 import Logo from 'app/fuse-layouts/shared-components/Logo';
-import SignInPanel from 'app/main/Common/FormsComponents/SignIn/SignIn.js';
-import SignUpPanel from 'app/main/Common/FormsComponents/SignUp/SignUp.js';
 
 const styles = theme => ({
     separator: {
@@ -64,20 +62,6 @@ const ToolbarLayout3 = ({classes, settings, toolbarTheme}) => {
                     <div className="flex px-12 ml-auto">
                         <Hidden xsDown>
                             <FuseSearch/>
-                        </Hidden>
-                    </div>
-                    
-
-                    <div className="flex px-12">
-                        <Hidden xsDown>
-                            <SignInPanel/>
-                        </Hidden>
-                    </div>
-                    
-
-                    <div className="flex px-12">
-                        <Hidden xsDown>
-                            <SignUpPanel/>
                         </Hidden>
                     </div>
                     

@@ -22,9 +22,9 @@ class ThumbsUpDownSingle extends React.Component {
     
 
     return (
-      <div className="container">
+      <div className="">
             
-            <Typography className="text-18 text-grey-darkest pb-24">3. I think the quality of the products is worth the prices. <span className="text-red-light font-800">*</span></Typography>
+            <Typography className="text-18 text-grey-darkest pb-20">3. I think the quality of the products is worth the prices. <span className="text-red-light font-800">*</span></Typography>
                 <div className="">
                 <Grid container className="">
                     <Grid item xs={4}>
