@@ -21,17 +21,11 @@ import Ranking from './ConsumerSurveyComponents/Ranking';
 
 
 const styles = theme => ({
-    layoutRoot: {},
-    root: {
-        flexGrow: 1,
-      },
-      
-      
+  layoutRoot: {},
+  root: {
+    flexGrow: 1
+  }
 });
-
-
-
-  
 
 class ConsumerSurveyLanding extends Component {
 
@@ -219,7 +213,5 @@ class ConsumerSurveyLanding extends Component {
         )
     }
 }
-
-
 
 export default ConsumerSurveyLanding;
