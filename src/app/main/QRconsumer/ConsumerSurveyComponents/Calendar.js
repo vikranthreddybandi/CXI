@@ -33,11 +33,11 @@ class Calendar extends React.Component {
     const { selectedDate } = this.state;
 
     return (
-      <div className="container">
+      <div className="">
 
         {/* checkbox question */}
             <div className="">
-              <Typography className="text-18 text-grey-darkest pb-24">11 . When is your birthday?</Typography>
+              <Typography className="text-18 text-grey-darkest pb-20">11 . When is your birthday?</Typography>
               <div className="">
                 {/* <MuiPickersUtilsProvider utils={DateFnsUtils}>
                   <Grid container className={classes.grid} justify="space-around">

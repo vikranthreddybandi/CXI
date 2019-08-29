@@ -22,11 +22,11 @@ class Email extends React.Component {
     
 
     return (
-      <div className="container">
+      <div className="">
 
         {/* Email question */}
             <div className="">
-              <Typography className="text-18 text-grey-darkest pb-24">9. Please share your email ID with us to get offer notifications</Typography>
+              <Typography className="text-18 text-grey-darkest pb-20">9. Please share your email ID with us to get offer notifications</Typography>
                 <div className="">
                 <TextField
                     id="outlined-name"

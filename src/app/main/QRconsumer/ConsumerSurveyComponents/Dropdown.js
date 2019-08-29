@@ -36,9 +36,9 @@ class Dropdown extends React.Component {
     return (
 
 
-        <div className="container">
+        <div className="">
                 <div className="">
-                <Typography className="text-18 text-grey-darkest pb-24">4. I rate the quality of Starbucks compared to other brands to be ?</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20">4. I rate the quality of Starbucks compared to other brands to be ?</Typography>
                     <form className={classes.root} autoComplete="off">  
 
                         <FormControl className="w-full">                                

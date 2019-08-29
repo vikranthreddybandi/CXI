@@ -22,9 +22,9 @@ class ThumbsUpDownMultiple extends React.Component {
     
 
     return (
-      <div className="container">
+      <div className="">
             
-                <Typography className="text-18 text-grey-darkest pb-24">3. What do you like about Starbucks? <span className="text-red-light font-800">*</span></Typography>
+                <Typography className="text-18 text-grey-darkest pb-20">3. What do you like about Starbucks? <span className="text-red-light font-800">*</span></Typography>
                 <div className="">
                 <Grid container className="pb-24">
                     <Grid item xs={6}>

@@ -37,11 +37,11 @@ class ImageType extends React.Component {
     
     
     return (
-      <div className="container">
+      <div className="">
 
           {/* star rating question */}
               <div className="">
-                <Typography className="text-18 text-grey-darkest pb-24">5. Which Coffee cup do you prefer?</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20">5. Which Coffee cup do you prefer?</Typography>
                   
                     <Grid container spacing={24}>
                       <Grid item xs={6}>

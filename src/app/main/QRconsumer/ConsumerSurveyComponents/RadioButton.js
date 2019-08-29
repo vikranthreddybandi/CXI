@@ -49,11 +49,11 @@ class RadioButton extends Component {
         
      
         return (
-                <div className="container ">    
+                <div className="">    
 
                         {/* radiobuttn question*/}
                          <div className="">
-                            <Typography className="text-18 text-grey-darkest pb-24">1. How often do you visit Starbucks?</Typography>
+                            <Typography className="text-18 text-grey-darkest pb-20">1. How often do you visit Starbucks?</Typography>
 
                             <div className="">
                             <FormControl component="fieldset" className={classes.formControl}>

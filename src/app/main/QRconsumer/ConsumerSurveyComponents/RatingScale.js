@@ -26,11 +26,11 @@ class RatingScale extends React.Component {
     
     
     return (
-      <div className="container">
+      <div className="">
 
           {/* star rating question */}
               <div className="">
-                <Typography className="text-18 text-grey-darkest pb-24">6. On a scale of 1-5, how would you rate the ambience at Starbucks?</Typography>
+                <Typography className="text-18 text-grey-darkest pb-20">6. On a scale of 1-5, how would you rate the ambience at Starbucks?</Typography>
                   
                   <div className=""> 
                   <ul class="pagination modal-3">                    
