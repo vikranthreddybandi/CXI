@@ -26,7 +26,7 @@ class Email extends React.Component {
 
         {/* Email question */}
             <div className="">
-              <Typography className="text-18 text-grey-darkest pb-20">8. Please share your email ID with us to get offer notifications</Typography>
+              <Typography className="text-18 text-grey-darkest pb-20">9. Please share your email ID with us to get offer notifications</Typography>
                 <div className="">
                 <TextField
                     id="outlined-name"
