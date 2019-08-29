@@ -11,7 +11,6 @@ import Signature from './ConsumerSurveyComponents/Signature';
 import FullName from './ConsumerSurveyComponents/FullName';
 import ThumbsUpDownSingle from './ConsumerSurveyComponents/ThumbsUpDownSingle';
 import ThumbsUpDownMultiple from './ConsumerSurveyComponents/ThumbsUpDownMultiple';
-import RatingScale from './ConsumerSurveyComponents/RatingScale';
 import ImageType from './ConsumerSurveyComponents/ImageType';
 import Dropdown from './ConsumerSurveyComponents/Dropdown';
 import Ranking from './ConsumerSurveyComponents/Ranking';
@@ -149,11 +148,6 @@ class ConsumerSurveyLanding extends Component {
                                 {/* imagetype ends */}
 
 
-                                {/* ranking scale*/}
-                                <Grid item xs={12} className="pb-72">
-                                    <RatingScale />
-                                </Grid>
-                                {/* ranking scale ends */}
                             
 
 
@@ -201,6 +195,12 @@ class ConsumerSurveyLanding extends Component {
                                 </Grid>
                                 {/* Signature ends */}
                                 
+
+                                <Grid item xs={12} className="mx-auto">
+                                    <Button variant="contained" className="shadow-none h-48 w-full flex font-600 mx-auto bg-green-darkest hover:bg-green-darkest text-white uppercase cursor-pointer mt-48" aria-label="Register">
+                                    Submit
+                                    </Button>
+                                </Grid>
                             
                         </Grid>
 
