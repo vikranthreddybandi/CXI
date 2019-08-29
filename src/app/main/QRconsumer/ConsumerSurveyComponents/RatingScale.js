@@ -1,6 +1,5 @@
 import 'date-fns';
 import React from 'react';
-import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import {Typography, Input} from '@material-ui/core';
 
@@ -20,7 +19,6 @@ class RatingScale extends React.Component {
 
   
   render() {
-    const { classes } = this.props;
 
       
     
@@ -28,7 +26,7 @@ class RatingScale extends React.Component {
     return (
       <div className="container">
 
-          {/* star rating question */}
+          {/*  rating question */}
               <div className="">
                 <Typography className="text-18 text-grey-darkest pb-24">6. On a scale of 1-5, how would you rate the ambience at Starbucks?</Typography>
                   
@@ -47,7 +45,7 @@ class RatingScale extends React.Component {
                   </div>
             </div>
 
-          {/* star rating question ends*/}
+          {/*  rating question ends*/}
 
 
       </div>
@@ -55,8 +53,6 @@ class RatingScale extends React.Component {
   }
 }
 
-RatingScale.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
+
 
 export default withStyles(styles)(RatingScale);
