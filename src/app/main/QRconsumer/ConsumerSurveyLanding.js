@@ -21,11 +21,17 @@ import Ranking from './ConsumerSurveyComponents/Ranking';
 
 
 const styles = theme => ({
-  layoutRoot: {},
-  root: {
-    flexGrow: 1
-  }
+    layoutRoot: {},
+    root: {
+        flexGrow: 1,
+      },
+      
+      
 });
+
+
+
+  
 
 class ConsumerSurveyLanding extends Component {
 
@@ -140,7 +146,10 @@ class ConsumerSurveyLanding extends Component {
                                     <ImageType />
                                 </Grid>
                                 {/* imagetype ends */}
-                                
+
+
+                            
+
 
                                 {/* star rating */}
                                 <Grid item xs={12} className="pb-72">
@@ -213,5 +222,7 @@ class ConsumerSurveyLanding extends Component {
         )
     }
 }
+
+
 
 export default ConsumerSurveyLanding;
