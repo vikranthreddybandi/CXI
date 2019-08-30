@@ -99,21 +99,21 @@ class ConsumerSurveyLanding extends Component {
                         <Grid container spacing={12}>                               
 
                                 {/* radiobuttn question*/}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <RadioButton />
                                 </Grid>
                                 {/* radiobuttn question ends*/}
                                 
 
                                 {/* checkbox question */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <CheckBox />
                                 </Grid>
                                 {/* checkbox question ends*/}
 
 
                                 {/* Thumbs up single  */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <ThumbsUpDownSingle />
                                 </Grid>
 
@@ -121,7 +121,7 @@ class ConsumerSurveyLanding extends Component {
 
 
                                 {/* Thumbs up multiple  */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <ThumbsUpDownMultiple />
                                 </Grid>
 
@@ -129,14 +129,14 @@ class ConsumerSurveyLanding extends Component {
 
 
                                 {/* dropdown question */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <Dropdown />
                                 </Grid>
                                 {/* dropdown question ends*/}
 
 
                                 {/* imagetype */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <ImageType />
                                 </Grid>
                                 {/* imagetype ends */}
@@ -146,14 +146,14 @@ class ConsumerSurveyLanding extends Component {
 
 
                                 {/* star rating */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <StarRating />
                                 </Grid>
                                 {/* star rating ends*/}
 
 
                                 {/* ranking */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <Ranking />
                                 </Grid>
                                 {/* ranking ends */}
@@ -161,14 +161,14 @@ class ConsumerSurveyLanding extends Component {
 
 
                                 {/* email id */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <Email />
                                 </Grid>
                                 {/* email id ends */}
 
 
                                 {/* FullName */}
-                                <Grid item xs={12} className="pb-72">
+                                <Grid item xs={12} className="pb-48">
                                     <FullName />
                                 </Grid>
                                 {/* FullName ends */}
@@ -178,7 +178,7 @@ class ConsumerSurveyLanding extends Component {
 
 
                                 {/* calender question */}
-                                <Grid item xs={12} className="pb-72">                                   
+                                <Grid item xs={12} className="pb-48">                                   
                                     <Calendar />
                                 </Grid>
                                 {/* calender question ends*/}
