@@ -21,7 +21,7 @@ class EMailTemplate extends Component {
     {
         const {classes} = this.props;
         return (
-                // <div className="container border-b-8 border-green-darkest ">
+                // <div className="container border-b-8 border-bottom-green-darkest ">
                 //     <div className="flex items-center">
                 //        <Grid container>
                 //             <Grid item xs={12}>
@@ -34,7 +34,7 @@ class EMailTemplate extends Component {
                 //     </div>
                 //     </div> 
                 
-                <div className="container border-b-8 border-green-darkest shadow">
+                <div className="container border-b-8 border-bottom-green-darkest">
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" className="border-1 border-grey ">
                         <tr>
                             <td align="center" valign="top" className="h-160 bg-green-darkest items-center px-20 pt-28">

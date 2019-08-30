@@ -21,7 +21,7 @@ class SignUp extends React.Component {
         const {classes} = this.props;
         return (
                 
-            <div className="container border-b-8 border-green-darkest">
+            <div className="container border-b-8 border-bottom-green-darkest">
                     <div className="flex items-center ">
                        <Grid container>
                             <Grid item xs={12}>
