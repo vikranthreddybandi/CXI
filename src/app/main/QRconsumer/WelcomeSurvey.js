@@ -25,11 +25,11 @@ class WelcomeSurvey extends Component {
                     <div className="flex items-center ">
                        <Grid container>
                             <Grid item xs={12}>
-                                <div className="px-24 py-160">
+                                <div className="px-24 py-92">
                                 <Grid item xs={12} className="mx-auto">
                                     <img src={('../assets/images/logos/brand_logo.png')} className="mx-auto block rounded-full max-w-160 mb-48" />
                                     <FuseAnimate animation="transition.slideUpIn" delay={300}>
-                                        <Typography className=" sm:text-24 text-20 text-green-darkest uppercase w-full font-bold leading-tight text-center mx-auto pb-24">
+                                        <Typography className=" sm:text-24 text-20 text-green-darkest uppercase w-full gs-b leading-tight text-center mx-auto pb-24">
                                             Welcome to Starbucks Customer Satisfaction Survey
                                         </Typography>
                                     </FuseAnimate>
@@ -41,6 +41,11 @@ class WelcomeSurvey extends Component {
                                     START SURVEY
                                     </Button>
                                 </Grid>
+
+                                <div className="flex items-center pt-128">
+                                            <img src={('../assets/images/icons/map.svg')} className="block ml-auto mr-6" />
+                                            <Typography className="text-grey gs-b text-14 text-center leading-normal mr-auto ">Jubliee hills Rd. 36 </Typography>                                        
+                                        </div>
 
                                 </div>
                             </Grid>

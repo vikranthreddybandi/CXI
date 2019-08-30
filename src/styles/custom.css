@@ -234,11 +234,3 @@
   text-decoration: none !important;
 }
 /* Number ratings starts ends */
-
-
-/* Slider */
-.slider__ {
-  overflow: auto;
-  display: -webkit-inline-box;
-}
-/* Slider end */

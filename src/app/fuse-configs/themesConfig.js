@@ -8,9 +8,9 @@ const themesConfig = {
             type     : 'light',
             primary  : fuseDark,
             secondary: {
-                light: '#FF4348',
-                main: '#FF4348',
-                dark: '#FF4348',
+                light: '#8C54A1',
+                main: '#8C54A1',
+                dark: '#8C54A1',
             },
             error    : red
         },
