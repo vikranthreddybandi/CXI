@@ -156,7 +156,10 @@
   padding: 12px;
   cursor: pointer;
   -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out
+  transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 .star-rating label:hover,
@@ -234,3 +237,10 @@
   text-decoration: none !important;
 }
 /* Number ratings starts ends */
+
+/* Slider */
+.slider__ {
+  overflow: auto;
+  display: -webkit-inline-box;
+}
+/* Slider end */
