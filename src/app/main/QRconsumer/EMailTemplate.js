@@ -34,8 +34,8 @@ class EMailTemplate extends Component {
                 //     </div>
                 //     </div> 
                 
-                <div className="container border-b-8 border-bottom-green-darkest">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0" className="border-1 border-grey ">
+                <div className="container ">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" className="border-b-8 border-bottom-green-darkest">
                         <tr>
                             <td align="center" valign="top" className="h-160 bg-green-darkest items-center px-20 pt-28">
                             <img src={('../assets/images/logos/brand_logo.png')} className="w-96 bg-white p-12 mb-12" />
@@ -49,7 +49,7 @@ class EMailTemplate extends Component {
                         </tr>
 
                         <tr>
-                        <td align="center" valign="middle" className="pb-32 pt-60 px-16">
+                        <td align="center" valign="middle" className="pb-40 pt-60 px-16">
                             <Typography className="text-28 max-w-400 text-green-darkest uppercase w-full gs-b leading-tight text-center mx-auto pb-32">
                             Thanks you for submitting the Survey
                             </Typography>
@@ -63,7 +63,7 @@ class EMailTemplate extends Component {
 
                         <tr>
                             <td align="center" valign="middle">
-                            <div className="flex items-center pb-60">
+                            <div className="flex items-center pb-20">
                                 <Typography className="text-grey-darkest text-16 text-center leading-normal ml-auto ">Powerd by </Typography>
                                 <img src={('../assets/images/logos/cxi_solutions.png')} className="block mr-auto" />
                             </div>

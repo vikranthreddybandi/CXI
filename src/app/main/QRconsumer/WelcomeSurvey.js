@@ -22,10 +22,10 @@ class WelcomeSurvey extends Component {
         return (
             
             <div className="container">
-                    <div className="flex items-center ">
+                    <div className="flex items-center border-b-8 border-bottom-green-darkest">
                        <Grid container>
                             <Grid item xs={12}>
-                                <div className="px-24 py-92">
+                                <div className="px-24 pt-92 pb-40">
                                 <Grid item xs={12} className="mx-auto">
                                     <img src={('../assets/images/logos/brand_logo.png')} className="mx-auto block rounded-full max-w-160 mb-48" />
                                     <FuseAnimate animation="transition.slideUpIn" delay={300}>

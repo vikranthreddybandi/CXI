@@ -71,14 +71,14 @@ class ConsumerSurveyLanding extends Component {
         
      
         return (
-                <div className="container border-1 border-grey">
+                <div className="container">
                     {/* header part */}
                         <div className="min-h-128 bg-green-darkest px-12">
                             <div className="flex p-16 items-center">
                                 <img src={('../assets/images/logos/brand_logo.png')} className="w-96 bg-white p-12 mr-20" />
                                 <Typography className="text-white text-20 font-800 leading-tight sm:text-24 capitalize ">Starbucks Customer Experience Survey</Typography>
                             </div>
-                        </div>
+                        </div>  
                      {/* header part ends*/}
 
                      {/* About Survey */}

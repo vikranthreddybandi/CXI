@@ -32,12 +32,13 @@ const styles = theme => ({
                 width   : '100%',
                 margin  : '0 auto',
                 background: '#ffffff',
-                'border-top': '1px solid #efefef',
-                'border-left': '1px solid #efefef',
-                'border-right': '1px solid #efefef',
-                'box-sizing': 'border-box',
-                '-moz-box-sizing': 'border-box',
-                '-webkit-box-sizing': 'border-box'
+                border: '1px solid #efefef',
+                // 'border-top': '1px solid #efefef',
+                // 'border-left': '1px solid #efefef',
+                // 'border-right': '1px solid #efefef',
+                // 'box-sizing': 'border-box',
+                // '-moz-box-sizing': 'border-box',
+                // '-webkit-box-sizing': 'border-box'
                 
             },
             '& .navigation': {}

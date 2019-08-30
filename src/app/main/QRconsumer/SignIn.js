@@ -21,8 +21,8 @@ class SignIn extends Component {
         const {classes} = this.props;
         return (
                 
-            <div className="container border-b-8 border-bottom-green-darkest">
-                    <div className="flex items-center ">
+            <div className="container ">
+                    <div className="flex items-center border-b-8 border-bottom-green-darkest">
                        <Grid container>
                             <Grid item xs={12}>
                                 <div className="px-24 sm:pt-128 pt-92 pb-16">
