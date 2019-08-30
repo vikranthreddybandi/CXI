@@ -21,15 +21,15 @@ class SignUp extends React.Component {
         const {classes} = this.props;
         return (
                 
-            <div className="container border-b-8 border-bottom-green-darkest">
-                    <div className="flex items-center ">
+            <div className="container">
+                    <div className="flex items-center border-b-8 border-bottom-green-darkest">
                        <Grid container>
                             <Grid item xs={12}>
                                 <div className="px-24 py-52">
                                     <Grid item xs={12} className="mx-auto">
                                         <img src={('../assets/images/logos/brand_logo.png')} className="mx-auto block rounded-full max-w-160 mb-36" />
                                         <FuseAnimate animation="transition.slideUpIn" delay={300}>
-                                            <Typography className=" sm:text-24 text-20 text-green-darkest uppercase w-full my-16 font-bold leading-tight text-center mx-auto pb-18">
+                                            <Typography className=" sm:text-24 text-20 text-green-darkest uppercase w-full my-16 gs-b leading-tight text-center mx-auto pb-18">
                                                 Welcome to Starbucks Customer Satisfaction Survey
                                             </Typography>
                                         </FuseAnimate>
