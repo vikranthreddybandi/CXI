@@ -21,7 +21,7 @@ class SignIn extends Component {
         const {classes} = this.props;
         return (
                 
-            <div className="container border-b-8 border-green-darkest">
+            <div className="container border-b-8 border-bottom-green-darkest">
                     <div className="flex items-center ">
                        <Grid container>
                             <Grid item xs={12}>
@@ -70,23 +70,14 @@ class SignIn extends Component {
 
                                         <Grid item xs={12} sm={10} className="mx-auto">
                                             <Button variant="contained" className="shadow-none h-48 w-full mx-auto bg-green-darkest text-white hover:bg-green-darkest text-captalize">
-                                                Sign Ip
+                                                Sign In
                                             </Button>
                                         </Grid>
 
-                                        <Grid item xs={12} sm={10} className="mx-auto">
-                                            {/* already have account */}
-                                            
-                                             <div>
-                                                 <Typography className="text-center text-grey-darkest font-bold mt-20">Dont Have a account? <span className="text-green-darkest capitalize">Sign up now</span></Typography>
-                                             </div>
-                                            
-                                            {/* already have account ends */}
-                                        </Grid>
 
                                         <div className="flex items-center pt-128">
                                             <img src={('../assets/images/icons/map.svg')} className="block ml-auto mr-6" />
-                                            <Typography className="text-grey font-500 text-14 text-center leading-normal mr-auto ">Jubliee hills Rd. 36 </Typography>                                        
+                                            <Typography className="text-grey gs-b text-14 text-center leading-normal mr-auto ">Jubliee hills Rd. 36 </Typography>                                        
                                         </div>
                                 {/* signIn form ends*/}
 

@@ -19,7 +19,7 @@ class ThankYou extends Component {
     {
         const {classes} = this.props;
         return (
-                // <div className="container border-b-8 border-green-darkest ">
+                // <div className="container border-b-8 border-bottom-green-darkest ">
                 //     <div className="flex items-center">
                 //        <Grid container>
                 //             <Grid item xs={12}>
@@ -48,7 +48,7 @@ class ThankYou extends Component {
                 //     </div>  
 
                 <div className="container border-1 border-grey">
-                    <div className=" border-b-8 border-green-darkest">
+                    <div className=" border-b-8 border-bottom-green-darkest">
                     <div className="h-screen grid items-center ">                        
 
                          <div className="items-center">

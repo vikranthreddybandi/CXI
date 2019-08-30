@@ -1132,6 +1132,10 @@ l/*@tailwind preflight;*/
   border-color:#067655 !important;
 }
 
+.border-bottom-green-darkest {
+  border-bottom-color:#067655 !important;
+}
+
 .border-green-darker {
   border-color: #1a4731;
 }
